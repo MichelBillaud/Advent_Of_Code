@@ -4,12 +4,12 @@ CFLAGS += -MMD
 CFLAGS += -D_XOPEN_SOURCE=700
 
 CFLAGS += -g
-EXECS = prog
+EXECS = aoc-2020-01
 
 
 all : $(EXECS)
 
-prog: prog.o # bar.o
+aoc-2020-01: aoc-2020-01.o
 
 -include $(wildcard *.d)
 
