@@ -5,7 +5,7 @@ C written in Fortran 77
 C michel billaud   14 dec 2021
 C
       character *20 filename 
-      print *, "AOC 2020 Day 5 Binary Boarding - part 1"
+      print *, "AOC 2020 Day 5 Binary Boarding - parts 1 and 2"
 
       filename = "../small.txt"
       call part1(filename)
