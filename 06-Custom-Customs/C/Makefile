@@ -4,13 +4,15 @@ CFLAGS += -MMD
 CFLAGS += -D_XOPEN_SOURCE=700
 
 CFLAGS += -g
-EXECS = aoc2020-06-part1
+EXECS = aoc2020-06-part1 aoc2020-06
+
+RUNNABLE = aoc2020-06
 
 
 all : $(EXECS)
 
-run : $(EXECS)
-	./aoc2020-06-part1
+run : $(RUNNABLE)
+	./$(RUNNABLE)
 
 -include $(wildcard *.d)
 
