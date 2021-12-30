@@ -10,11 +10,10 @@ CFLAGS += -Werror -Wno-unused
 
 # LDFLAGS += -pg -g
 
-execs = prog
+execs = day10
 
 all: $(execs)
 
-prog: prog.o
 
 # -include *.d
 
