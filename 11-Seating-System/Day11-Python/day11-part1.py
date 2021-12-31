@@ -1,4 +1,8 @@
-
+#
+# AOL 2020 - Day 11 - Seating System
+# Part 1 only
+# michel billaud, 31 dec 2021
+#
 deltas = [(-1, -1), (-1, 0), (-1, 1),
          (0, -1),           (0, 1),
         (1, -1),  (1, 0), (1, 1)]
