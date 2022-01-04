@@ -44,3 +44,20 @@ when a letter is encountered.
 
 
 
+# Alternative
+
+A "too easy" alternative (at least for part 1) would be to build
+a pattern by induction
+
+| n | pattern                                    |
+|---|--------------------------------------------|
+| 4 | a                                          |
+| 5 | b                                          |
+| 3 | (ab)\|(ba)                                 |
+| 2 | (aa)\|(bb)                                 |
+| 1 | ((ab\|ba)(aa\|bb)) \| ((aa\|bb)(ab\|ba))   |
+| 0 | a((ab\|ba)(aa\|bb)) \| ((aa\|bb)(ab\|ba))b |
+
+and rely on the regex library, as the language is actually 
+rational.
+
