@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// advent of code 2015, day 1
+
 void part1(const char filename[])
 {
     printf("# Part 1 (%s)\n", filename);
