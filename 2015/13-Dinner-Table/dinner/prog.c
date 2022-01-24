@@ -113,7 +113,7 @@ void process(const char filename[])
         char name1[20], name2[20], action[20];
         int quantity;
         sscanf(line, "%s would %s %d happiness units by "
-               "sitting next to %[^.]s.", name1, action, &quantity, name2);
+               "sitting next to %[^.].", name1, action, &quantity, name2);
         // printf ("- %s/%s %s %d\n", name1, name2, action, quantity);
         int n1 = index_of_name(name1);
         int n2 = index_of_name(name2);
